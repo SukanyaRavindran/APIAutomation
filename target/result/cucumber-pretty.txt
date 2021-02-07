@@ -1,0 +1,11 @@
+@weather
+Feature: Weather Forecast
+
+  @tag1
+  Scenario: As a choosy surfer                                                             [90m# features/weatherForecast.feature:5[0m
+    [32mGiven [0m[32mI like to surf in any [0m[32m[1m2[0m[32m beaches <Out of top ten> of Sydney[0m                       [90m# WeatherForecast.i_like_to_surf_in_any_beaches_Out_of_top_ten_of_Sydney(String)[0m
+    [32mAnd [0m[32mI only like to surf on any [0m[32m[1m2[0m[32m days specifically "[0m[32m[1mThursday & Friday[0m[32m" in next [0m[32m[1m16[0m[32m Days[0m [90m# WeatherForecast.i_only_like_to_surf_on_any_days_specifically_Thursday_Friday_in_next_Days(int,String,int)[0m
+    [32mWhen [0m[32mI look up the the weather forecast for the next [0m[32m[1m16[0m[32m days using POSTAL CODES[0m        [90m# WeatherForecast.i_look_up_the_the_weather_forecast_for_the_next_days_using_POSTAL_CODES(int)[0m
+    [32mThen [0m[32mI check to if see the temperature is between "[0m[32m[1m20[0m[32m" and "[0m[32m[1m30[0m[32m"[0m                        [90m# WeatherForecast.i_check_to_if_see_the_temperature_is_between_and(int,int)[0m
+    [32mAnd [0m[32mI check to see if UV index is <= [0m[32m[1m3[0m                                                 [90m# WeatherForecast.i_check_to_see_if_UV_index_is(float)[0m
+    [32mAnd [0m[32mI Pick two spots based on suitable weather forecast for the day[0m                    [90m# WeatherForecast.i_Pick_two_spots_based_on_suitable_weather_forecast_for_the_day()[0m

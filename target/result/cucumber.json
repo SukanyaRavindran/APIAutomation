@@ -1,0 +1,148 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "As a choosy surfer",
+        "description": "",
+        "id": "weather-forecast;as-a-choosy-surfer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3643625200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I like to surf in any 2 beaches \u003cOut of top ten\u003e of Sydney",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 22
+                }
+              ],
+              "location": "WeatherForecast.i_like_to_surf_in_any_beaches_Out_of_top_ten_of_Sydney(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 749473900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I only like to surf on any 2 days specifically \"Thursday \u0026 Friday\" in next 16 Days",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 27
+                },
+                {
+                  "val": "Thursday \u0026 Friday",
+                  "offset": 48
+                },
+                {
+                  "val": "16",
+                  "offset": 75
+                }
+              ],
+              "location": "WeatherForecast.i_only_like_to_surf_on_any_days_specifically_Thursday_Friday_in_next_Days(int,String,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1366350600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I look up the the weather forecast for the next 16 days using POSTAL CODES",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16",
+                  "offset": 48
+                }
+              ],
+              "location": "WeatherForecast.i_look_up_the_the_weather_forecast_for_the_next_days_using_POSTAL_CODES(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I check to if see the temperature is between \"20\" and \"30\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 46
+                },
+                {
+                  "val": "30",
+                  "offset": 55
+                }
+              ],
+              "location": "WeatherForecast.i_check_to_if_see_the_temperature_is_between_and(int,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44661100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I check to see if UV index is \u003c\u003d 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 33
+                }
+              ],
+              "location": "WeatherForecast.i_check_to_see_if_UV_index_is(float)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174188700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Pick two spots based on suitable weather forecast for the day",
+            "match": {
+              "location": "WeatherForecast.i_Pick_two_spots_based_on_suitable_weather_forecast_for_the_day()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Weather Forecast",
+    "description": "",
+    "id": "weather-forecast",
+    "keyword": "Feature",
+    "uri": "features/weatherForecast.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@weather"
+      }
+    ]
+  }
+]

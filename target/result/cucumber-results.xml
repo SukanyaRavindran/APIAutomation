@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="5.978415">
+    <testcase classname="Weather Forecast" name="As a choosy surfer" time="5.978415">
+        <system-out><![CDATA[Given I like to surf in any 2 beaches <Out of top ten> of Sydney............passed
+And I only like to surf on any 2 days specifically "Thursday & Friday" in next 16 Days.passed
+When I look up the the weather forecast for the next 16 days using POSTAL CODES.passed
+Then I check to if see the temperature is between "20" and "30".............passed
+And I check to see if UV index is <= 3......................................passed
+And I Pick two spots based on suitable weather forecast for the day.........passed
+]]></system-out>
+    </testcase>
+</testsuite>
